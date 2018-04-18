@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Stores.Service</AssemblyName>
+    <RootNamespace>Stores.Service</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stores.Data\Stores.Data.csproj" />
+    <ProjectReference Include="..\Stores.Model\Stores.Model.csproj" />
+  </ItemGroup>
+
+</Project>
